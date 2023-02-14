@@ -6,19 +6,58 @@
 div.head{align-content: center;
   padding-top: 20px;
   padding-left: 20px;
-  display: flex;
+  display: inline-flex;
 }
 
 div.option{
   display: flex;
+  padding-bottom: 20px;
 }
 
 
 /*main*/
-main{background-color: aquamarine;
+
+div.border{
+  margin: 10px;
 }
+button.option1{
+  background-color: rgb(15, 129, 129);
+}
+h2{
+  padding-bottom: 2px;
+}
+
+main{
+  padding-left: 50px;
+  padding-top: 10px;
+  
+}
+
+span{
+  padding: 10px;
+}
+
+span.cross{
+  color:red;
+  border-radius: 50%;
+}
+span.check{
+  color: green;
+  display: inline-block;
+}
+
 span.editorial{
   background-color: rgb(0, 166, 255);
+  border-radius: 15%;
+}
+
+span.website{
+  
+  border-radius: 15%;
+}
+
+span.sales{
+  background-color: darkseagreen;
 }
 
 /*footer*/
